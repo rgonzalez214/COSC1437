@@ -1,5 +1,5 @@
 <H1>Text Processing and Wrapper Classes</H1>
-<h2>String indexing and Parsing</H2>
+<h2>String indexing and Parsing of Military time to Standard time</H2>
 Ask the user to enter a time in military time (24 hours).
 The program should convert and display the equivalent conventional time (12 hour with AM or PM) for
 each entry if it is a valid military time.

@@ -24,5 +24,6 @@ letter prior to checking it.
   <LI> Compile, debug, and run. Test out your program using the following valid input: 00:00, 12:00,
 04:05, 10:15, 23:59, 00:35, and the following invalid input: 7:56, 15:78, 08:60, 24:00, 3e:33,
 1:111.
-Screenshot of the output TimeDemo.class below:
 </OL>
+Screenshot of the output TimeDemo.class below:
+<img src="https://github.com/rgonzalez214/COSC1437/blob/master/Text-Processing-and-Wrapper-Classes/TimeDemo/ApplicationFrameHost_6ItytBBqs2.png"></img>

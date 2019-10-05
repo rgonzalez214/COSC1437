@@ -1,30 +1,14 @@
 <H1>Text Processing and Wrapper Classes</H1>
-<h2>String indexing and Parsing of Military time to Standard time</H2>
-Ask the user to enter a time in military time (24 hours).
-The program should convert and display the equivalent conventional time (12 hour with AM or PM) for
-each entry if it is a valid military time.
-An error message will be printed to the console if the entry is not a valid military time.
-
+<h2>String Tokenizer and String Builder Classes</h2>
 <OL>
-  <LI>In Time.java, add conditions that validate the data.
-  <OL TYPE="A">
-    <LI>Conditions needed:
-    <OL TYPE="I">
-      <LI> Check the length of the string
-      <LI> Check the position of the colon
-      <LI> Check that all other characters are digits
-    </OL>
-  </OL>
-  <LI>Add lines that will separate the string into two substrings containing hours and minutes.
-    <OL TYPE="A">
-      <LI> Convert these substrings to integers and save them into the instance variables.
-    </OL>
-  <LI> In TimeDemo class, add a condition to the loop that converts the user’s answer to a capital
-letter prior to checking it.
-  <LI> Compile, debug, and run. Test out your program using the following valid input: 00:00, 12:00,
-04:05, 10:15, 23:59, 00:35, and the following invalid input: 7:56, 15:78, 08:60, 24:00, 3e:33,
-1:111.
+  <lI>Read in the file secret.txt.
+  <li>This file contains one single line of 2 consecutive sentences.
+  <li>Create a SecretMessage.java file with a main method that will read the file secret.txt, separate it into word tokens.
+  <li>Process the tokens by taking the first letter of every fifth word, starting with the first word in the file.
+  <li>Convert the letters to capitals, then be appended to a StringBuilder object to form a word.
+  <li>Printed the string builder object to the console to display the secret message.
+  <li>Compile, debug, and run the SecretMessage.java and .class files
 </OL>
-Screenshot of the output TimeDemo.class below:
+Screen shot of the output and from SecretMessage.class below:<br>
 
 <img src="https://github.com/rgonzalez214/COSC1437/blob/master/Text-Processing-and-Wrapper-Classes/SecretMessage/ApplicationFrameHost_H2eSp8dSmM.png"></img>

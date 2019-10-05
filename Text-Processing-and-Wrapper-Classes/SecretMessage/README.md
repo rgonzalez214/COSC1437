@@ -9,6 +9,6 @@
   <li>Printed the string builder object to the console to display the secret message.
   <li>Compile, debug, and run the SecretMessage.java and .class files
 </OL>
-Screen shot of the output and from SecretMessage.class below:<br>
+Screen shot of the output and from SecretMessage.class below:<br><br>
 
 <img src="https://github.com/rgonzalez214/COSC1437/blob/master/Text-Processing-and-Wrapper-Classes/SecretMessage/ApplicationFrameHost_H2eSp8dSmM.png"></img>
